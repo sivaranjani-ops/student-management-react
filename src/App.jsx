@@ -4,9 +4,19 @@ import "./App.css";
 // Header component
 function Header() {
   return (
-    <h1 className="heading">
-      Student Management System
-    </h1>
+    <header
+      style={{
+        backgroundColor: "#1e293b",
+        color: "white",
+        textAlign: "center",
+        padding: "30px 20px",
+        marginBottom: "30px"
+      }}
+    >
+      <h1 style={{ margin: 0 }}>
+        Student Management System
+      </h1>
+    </header>
   );
 }
 
@@ -34,16 +44,16 @@ function App() {
 
   // Student details
   const student1 = {
-    name: "Sivaranjani",
-    department: "CSE",
-    year: "3rd Year"
-  };
+  name: "Anu",
+  department: "CSE",
+  year: "3rd Year"
+};
 
-  const student2 = {
-    name: "Rudra",
-    department: "MBA",
-    year: "3rd Year"
-  };
+const student2 = {
+  name: "Bala",
+  department: "Computer Science",
+  year: "3rd Year"
+};
 
   return (
     <div>
